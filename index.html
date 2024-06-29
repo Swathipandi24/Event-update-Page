@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Hip-Hop-Dance</h1>
+            <p>Number of available seats: 23</p>
+        </header>
+        <div class="content">
+            <div class="image">
+                <img src="https://wallpapers.com/images/hd/hip-hop-dance-moves-icqv2a6jfwx1pp84.jpg" alt="Hip Hop dance">
+            </div>
+            <form class="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone No.:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="seats">Number of seats:</label>
+                <select id="seats" name="seats" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="attendee2">Name of Attendee 2:</label>
+                <input type="text" id="attendee2" name="attendee2">
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="button" onclick="window.location.href='index.html'">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
